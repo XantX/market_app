@@ -1,5 +1,6 @@
 import tkinter as tk
 import config.restaurante_datos as rest_data
+# import dataccess.config_db as con_db
 
 
 def main():
@@ -10,7 +11,6 @@ def main():
     frame = tk.Frame(root)
     frame.pack()
     frame.config(width=480, height=400, bg='green')
-
     root.mainloop()
 
 
